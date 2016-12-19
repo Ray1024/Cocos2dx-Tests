@@ -31,11 +31,11 @@ bool CocosStudioTest::init()
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
     //²Ëµ¥----------------------------------------------------------------------
-    auto itemCocosStudio = MenuItemFont::create("Back",
+    auto itemBack = MenuItemFont::create("Back",
 		CC_CALLBACK_1(CocosStudioTest::menuBackCallback, this));
-	itemCocosStudio->setPosition(visibleSize.width-itemCocosStudio->getContentSize().width,
-		itemCocosStudio->getContentSize().height);
-    auto menu = Menu::create(itemCocosStudio, NULL);
+	itemBack->setPosition(visibleSize.width-itemBack->getContentSize().width,
+		itemBack->getContentSize().height);
+    auto menu = Menu::create(itemBack, NULL);
 	menu->setPosition(Vec2::ZERO);
     this->addChild(menu, 1);
 
