@@ -140,6 +140,9 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\CocosStudioTest.cpp" />
     <ClCompile Include="..\Classes\CoordinateTest.cpp" />
+    <ClCompile Include="..\Classes\Poker.cpp" />
+    <ClCompile Include="..\Classes\PokerManager.cpp" />
+    <ClCompile Include="..\Classes\PokerTest.cpp" />
     <ClCompile Include="..\Classes\TestController.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -147,6 +150,9 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\CocosStudioTest.h" />
     <ClInclude Include="..\Classes\CoordinateTest.h" />
+    <ClInclude Include="..\Classes\Poker.h" />
+    <ClInclude Include="..\Classes\PokerManager.h" />
+    <ClInclude Include="..\Classes\PokerTest.h" />
     <ClInclude Include="..\Classes\TestController.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>

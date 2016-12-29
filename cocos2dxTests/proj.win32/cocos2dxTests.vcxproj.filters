@@ -15,16 +15,25 @@
     <ClCompile Include="main.cpp">
       <Filter>win32</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\AppDelegate.cpp">
+    <ClCompile Include="..\Classes\CoordinateTest.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\TestController.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
     <ClCompile Include="..\Classes\CocosStudioTest.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\CoordinateTest.cpp">
+    <ClCompile Include="..\Classes\PokerTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Poker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PokerManager.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,16 +41,25 @@
     <ClInclude Include="main.h">
       <Filter>win32</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\AppDelegate.h">
+    <ClInclude Include="..\Classes\CoordinateTest.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\TestController.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
     <ClInclude Include="..\Classes\CocosStudioTest.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\CoordinateTest.h">
+    <ClInclude Include="..\Classes\Poker.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PokerTest.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PokerManager.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

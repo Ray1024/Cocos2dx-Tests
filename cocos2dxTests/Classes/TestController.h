@@ -13,7 +13,8 @@ public:
 	// »Øµ÷
     void menuCocosStudioCallback(cocos2d::Ref* pSender);
 	void menuCoordinateTestCallback(cocos2d::Ref* pSender);
-    
+    void menuPokerTestCallback(cocos2d::Ref* pSender);
+
     CREATE_FUNC(TestController);
 };
 

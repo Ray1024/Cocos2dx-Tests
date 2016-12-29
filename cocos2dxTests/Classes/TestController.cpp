@@ -1,6 +1,7 @@
 #include "TestController.h"
 #include "CocosStudioTest.h"
 #include "CoordinateTest.h"
+#include "PokerTest.h"
 
 USING_NS_CC;
 
@@ -34,7 +35,11 @@ bool TestController::init()
 		CC_CALLBACK_1(TestController::menuCoordinateTestCallback, this));
 	itemCoordinate->setPosition(0, 0);
 
-    auto menu = Menu::create(itemCocosStudio, itemCoordinate, NULL);
+	auto itemPoker = MenuItemFont::create("PokerTest",
+		CC_CALLBACK_1(TestController::menuPokerTestCallback, this));
+	itemPoker->setPosition(0, -50);
+
+    auto menu = Menu::create(itemCocosStudio, itemCoordinate, itemPoker, NULL);
     this->addChild(menu, 1);
     
     return true;
@@ -49,4 +54,9 @@ void TestController::menuCocosStudioCallback(Ref* pSender)
 void TestController::menuCoordinateTestCallback(Ref* pSender)
 {
 	Director::getInstance()->replaceScene(CoordinateTest::createScene());
+}
+
+void TestController::menuPokerTestCallback(Ref* pSender)
+{
+	Director::getInstance()->replaceScene(PokerTest::createScene());
 }
